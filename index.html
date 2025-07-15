@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunil Singh | Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sunil Singh</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon text-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+<section id="home" class="hero-section">
+  <div class="container">
+    <h1>👨‍💻 Hi, I'm Sunil Singh</h1>
+    <p class="lead">
+      15+ Years of .NET, Angular & Cloud Expertise<br>
+      Building Scalable, Secure & Integrated Enterprise Solutions
+    </p>
+
+    <h4 class="mt-4">Core Tech Expertise:</h4>
+    <ul class="hero-skills">
+      <li><strong>Languages & Frameworks:</strong> C#, .NET Core, Angular, React</li>
+      <li><strong>Cloud & DevOps:</strong> AWS, Azure, Docker, CI/CD</li>
+      <li><strong>Databases:</strong> SQL Server, MongoDB, PostgreSQL</li>
+      <li><strong>Architecture:</strong> Microservices, REST APIs, DI, IoC</li>
+    </ul>
+ <div class="button-group">
+   <a href="#skills" class="btn btn-warning">🔍 View All Skills</a>
+  <a href="Sunil Singh Resume..pdf" download class="btn btn2">📥 Download CV</a>
+ </div>
+  
+  </div>
+</section>
+
+  
+  <!-- ABOUT -->9
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/ps3.jpg" alt="Pankaj Sharma" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>👋I’m Sunil Singh, Senior Software Engineer with over 15 years of experience architecting and delivering scalable, high-performance applications across web, mobile, and cloud platforms. Proven expertise in C#, .NET Core, Angular, RESTful APIs, and seamless third-party integrations. Adept in crafting robust system architectures, implementing cloud-native solutions on AWS and Azure, and designing efficient database models using SQL Server and MongoDB. Recognized for driving end-to-end project execution with a strong focus on quality, collaboration, and innovative problem-solving.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab(event, 'experience')">Experience</p>
+             <p class="tab-links" onclick="openTab(event, 'education')">Education</p>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Senior Software Developer</span><br>Freelance / Remote<br> Oct 2024  – Present</li>
+              <li><span>Senior Software Developer</span><br> Eminence Technology Pvt Ltd <br> Jan 2018 - Oct 2024</li>
+             <li><span>Software Developer</span><br> Pugmarks Interweb Pvt Ltd<br> Sept 2012 - Jan 2014</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents active-tab" id="education">
+            <ul>
+              <li><span>Indira Gandhi National Open University (IGNOU)</span><br> Master of Computer Applications (MCA)<br> 2010 – 2013</li>
+              <li><span>Guru Nanak Dev University (GNDU), Pathankot</span><br> Bachelor of Computer Applications (BCA)<br>2007 – 2010</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+<section id="skills">
+  <div class="container text-center">
+    <h2 class="section-title">Technical Proficiency</h2>
+    <div class="row g-4">
+
+      <!-- LANGUAGES & FRAMEWORKS -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-code text-warning"></i> Languages & Frameworks</h5>
+          <ul class="list-unstyled mt-3">
+            <li>C#, .NET Core (3.1 / 9.0), ASP.NET MVC/Core</li>
+            <li>Web API, Entity Framework Core, LINQ</li>
+            <li>JavaScript, TypeScript, Node.js, Express.js</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FRONTEND DEVELOPMENT -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-desktop text-info"></i> Frontend Development</h5>
+          <ul class="list-unstyled mt-3">
+            <li>AngularJS, Angular 18, React.js</li>
+            <li>HTML5, CSS3, Bootstrap, Tailwind CSS</li>
+            <li>Material UI</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MOBILE APP DEVELOPMENT -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-mobile-alt text-light"></i> Mobile App Development</h5>
+          <ul class="list-unstyled mt-3">
+            <li>Ionic Framework</li>
+            <li>React Native (Basic Exposure)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- DATABASE TECHNOLOGIES -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-database text-warning"></i> Database Technologies</h5>
+          <ul class="list-unstyled mt-3">
+            <li>SQL Server, MongoDB, MySQL</li>
+            <li>DynamoDB, PostgreSQL, Oracle</li>
+            <li>Database Design, Migration, Optimization, Security</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CLOUD & DEVOPS -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-cloud text-white"></i> Cloud & DevOps</h5>
+          <ul class="list-unstyled mt-3">
+            <li>AWS (EC2, S3, Lambda, RDS, CloudWatch)</li>
+            <li>Azure (App Services, Blob Storage, Azure Functions, Azure DevOps)</li>
+            <li>Firebase Hosting, Docker, GitHub Actions</li>
+            <li>CI/CD Pipelines</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- THIRD-PARTY INTEGRATIONS -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-plug text-info"></i> Third-Party Integrations</h5>
+          <ul class="list-unstyled mt-3">
+            <li>Amadeus, Priceline, Stripe, Razorpay, Twilio</li>
+            <li>Firebase Auth, Google Maps API, SendGrid</li>
+            <li>SignalR (Real-Time Communication)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ARCHITECTURE & PATTERNS -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-project-diagram text-warning"></i> Architecture & Patterns</h5>
+          <ul class="list-unstyled mt-3">
+            <li>MVC, MVVM, Microservices, RESTful APIs</li>
+            <li>Dependency Injection (DI), IoC</li>
+            <li>Repository Pattern, Singleton</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ADDITIONAL TECHNICAL SKILLS -->
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="card p-4 h-100 text-start">
+          <h5 class="card-title"><i class="fas fa-wrench text-light"></i> Additional Skills</h5>
+          <ul class="list-unstyled mt-3">
+            <li>API Design & Integration, Cross-Platform Development</li>
+            <li>Agile/Scrum, Software Deployment</li>
+            <li>Unit Testing, Debugging, Performance Optimization</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- PROJECTS -->
+  <section id="portfolio">
+    <div class="container text-center">
+      <h1 class="section-title">My Work</h1>
+      <div class="work-list">
+        <div class="row g-4">
+          <div class="col-4 work">
+            <img src="images/crewplanner-002.avif">
+            <div class="layer">
+              <h3>Crew Planner App</h3>
+              <p>CrewPlanner is a smart workforce management tool that simplifies employee scheduling, contract generation, time tracking, and payroll integration — perfect for industries like hospitality, logistics, and staffing.</p>
+              <a href="http://crewplanner.appnet.fo/"  target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="col-4 work">
+            <img src="images/honda_web_header-1-1.jpg">
+            <div class="layer">
+              <h3>HondaCarIndia</h3>
+              <p>A product showcase web app built for Honda, enabling users to browse car models with pricing. Developed using ASP.NET with a 3-tier architecture</p>
+              <a href="https://www.hondacarindia.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="col-4 work">
+            <img src="images/cruise.jpg">
+            <div class="layer">
+              <h3>The Cruise Web </h3>
+              <p>The Cruise Web offers personalized cruise planning with expert guidance and no booking fees. They specialize in cruises to the Caribbean, Mediterranean, Asia, Arctic, and more, including river, luxury, and expedition cruises.</p>
+              <a href="https://cruiseweb.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hidden Extra Projects -->
+        <div class="row g-4 extra-projects d-none">
+          <div class="col-4 work">
+            <img src="images/sumba.jpg">
+            <div class="layer">
+              <h3>Sumbiarskúli</h3>
+              <p>Sumbiarskúli is a school located in Sumba, Faroe Islands, offering quality education and community-focused learning for local students</p>
+              <a href="https://sumbiarskuli.fo/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="col-4 work">
+            <img src="images/shipping.jpg">
+            <div class="layer">
+              <h3>Faroe Ship</h3>
+              <p>Faroe Ship provides comprehensive shipping, logistics, and freight forwarding services across the Faroe Islands and internationally, specializing in efficient cargo handling and transportation solutions.</p>
+              <a href="http://shipping.fo.web32.curanetserver.dk/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="col-4 work">
+            <img src="images/Porkeri.2.2002.jpg">
+            <div class="layer">
+              <h3>Porkeris Kommuna</h3>
+              <p>Porkeris Kommuna is the official municipal website for Porkeri village in the Faroe Islands, providing local government information, services, and community updates for residents and visitors</p>
+              <a href="http://dev.porkeri.fo/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+           <div class="col-4 work">
+            <img src="images/zeyar.png">
+            <div class="layer">
+              <h3>Zeyar Software</h3>
+              <p> Web-Based Hospital Management System. Developed for the medical domain, Built using DevExpress controls, Designed to manage the hospital system online, Maintains records of patients, doctors, and staff</p>
+              <a href="https://www.zeyar.com.au/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+           <div class="col-4 work">
+            <img src="images/purchasing.png">
+            <div class="layer">
+              <h3>Purchasing  Power Travel</h3>
+              <p>A travel booking platform for employees to plan vacations and pay via payroll deductions, Built and tested travel booking features (flights, hotels, rentals)
+ Enabled payroll deduction payments with no credit check, Developed secure login and booking workflows </p>
+              <a href="https://stage_tmp.purchasingpower.travel/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- See More Button -->
+        <a href="#" class="btn" id="seeMoreBtn">See More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <!-- <section id="contact">
+    <div class="container">
+      <div class="contact-row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> er.techworld@gmail.com</p>
+          <p><i class="fa-solid fa-phone-volume"></i> xxxxxxxxxx</p>
+          <a href="Sunil Singh Resume..pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form id="contactForm">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Sunil Singh | Crafting clean code & creative experiences.</p>
+
+  </footer>
+
+  <!-- MODAL -->
+  <!-- <div class="modal fade" id="thankYouModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center p-4">
+        <div class="modal-body">
+          <h5 class="modal-title mb-2">🎉 Thank You!</h5>
+          <p>Your message has been received. I'll be in touch soon.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
